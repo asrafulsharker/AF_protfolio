@@ -1,0 +1,57 @@
+/* header css start  */
+.header_area{
+    background-color: #191919 !important;
+    height: 111px;
+    display: flex;
+    align-items: center;
+   
+}
+.main_menu{
+
+}
+
+.logo{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+}
+
+.logo_icon{
+    width: 34.44px;
+    height: 55.9px;
+    left: 59px;
+    top: 29.05px;
+}
+
+.logo_text{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.7951px;
+    line-height: 39px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.navbar-nav{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.1464px;
+    line-height: 20px;
+    text-decoration: none;
+
+
+}
+
+.nav-item a{
+    color: #FFFFFF;
+    margin:0px 15px ;
+}
+
+.nav-button{
+    background-color: #FFFFFF !important;
+}
+.nav-button a{
+    color: #191919 !important;
+}
