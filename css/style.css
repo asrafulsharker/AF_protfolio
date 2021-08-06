@@ -1,19 +1,18 @@
 /* header css start  */
 .header_area{
     background-color: #191919 !important;
-    height: 111px;
-    display: flex;
-    align-items: center;
-   
-}
-.main_menu{
 
+}
+.head{
+    display: flex !important;
+    align-items: center !important;
 }
 
 .logo{
     display: flex ;
     align-items: center ;
     justify-content: center ;
+    padding: 10px 0px;
 }
 
 .logo_icon{
@@ -31,6 +30,15 @@
     line-height: 39px;
     margin-left: 15px;
     color: #FFFFFF;
+    text-decoration: none !important;
+}
+
+.logo_text:hover{
+    color: #FFFFFF !important;
+}
+
+.navbar{
+    /* height: 111px; */
 }
 
 .navbar-nav{
@@ -40,7 +48,7 @@
     font-size: 17.1464px;
     line-height: 20px;
     text-decoration: none;
-
+    text-align: center;
 
 }
 
@@ -55,3 +63,21 @@
 .nav-button a{
     color: #191919 !important;
 }
+
+/* for responsive nav  */
+
+@media screen and (max-width: 990px) {
+    .header_area{
+        /* height: 400px; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+  }
+
+  .navbar-collapse{
+      /* height: 170px !important; */
+      background-color: #191919;
+  }
+
+/* header css end  */
