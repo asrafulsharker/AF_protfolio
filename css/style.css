@@ -59,6 +59,8 @@
 
 .nav-button{
     background-color: #FFFFFF !important;
+    border: 0.477129px solid #000000;
+    box-sizing: border-box;
 }
 .nav-button a{
     color: #191919 !important;
@@ -81,3 +83,85 @@
   }
 
 /* header css end  */
+
+/* home css start */
+
+.home{
+    background-image: url("home-bg.png");
+    background-color: #191919;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-main{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    padding: 50px 0px ;
+}
+
+.home-hi-text{
+    background: -webkit-linear-gradient(45deg,#D411AF,#9631B1, #A6AAB5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.6953px;
+    line-height: 44px;
+    margin-top: 50px;
+}
+
+.home-discription-text{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55.4305px;
+    line-height: 66px;
+    text-align: center;
+    width: 942px;
+    color: #FFFFFF;
+    margin: 10px 0px 50px 0px;
+
+}
+
+.home-btn{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.096px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.04em;
+    color: #000000;
+
+}
+.home-btn a{
+    border: 1px solid #FFFDFD;
+    border-radius: 33px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none !important;
+    transition: .7s;
+}
+.home-btn1{
+    padding: 20px 40px;
+    margin-right: 8px;
+}
+
+.home-btn2{
+    padding: 20px 60px;
+    margin-left: 8px;
+}
+
+.home-btn a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+/* home css end  */
