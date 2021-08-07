@@ -165,3 +165,57 @@
     color: #000000;
 }
 /* home css end  */
+
+/* about css start  */
+
+.about{
+    background-color: #191919;
+    padding: 100px 0px;
+}
+
+.about-left-text1{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    background: -webkit-linear-gradient(45deg,#FE0692,#E14993, #CF8B96);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+    
+}
+
+.about-left-text2{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.7083px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.about-right-li{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.8975px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.about-right-p{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.3163px;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+/* about css end  */
