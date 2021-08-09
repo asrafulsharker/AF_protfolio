@@ -340,3 +340,76 @@
     text-align: justify;
 }
 /* services css end  */
+
+/* works css  start  */
+
+.works{
+    background-color: #191919;
+    padding: 100px 0px;
+}
+
+.works-top-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.works-top-p{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.7083px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 588px;
+    height: 184px;
+
+}
+
+.work-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.work-card img{
+    width: 270px;
+    height: 100%;
+} 
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .work-view-link a{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 37.1829px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+    text-decoration: none !important;
+  }
+  .work-view-link a:hover{
+      color: white !important;
+  }
+  .work-view-link a p{
+      margin-bottom: 0rem !important;
+      margin-right: 10px;
+  }
+
+  .work-view-link a img{
+    margin-left: 10px;
+}
+
+/* works css end  */
