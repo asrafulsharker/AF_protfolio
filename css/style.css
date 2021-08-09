@@ -179,7 +179,7 @@
     font-weight: 600;
     font-size: 48px;
     line-height: 57px;
-    background: -webkit-linear-gradient(45deg,#FE0692,#E14993, #CF8B96);
+    background: -webkit-linear-gradient(45deg,#FE0692,#E14993, #CF8B96 , #CF8B96, #CF8B96);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 50px;
@@ -219,3 +219,124 @@
 }
 
 /* about css end  */
+
+/* work-strategy css start  */
+
+.work-strategy{
+    background-color: #191919;
+    padding: 100px 0px;
+}
+
+.work-strategy-left-text1{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    background: -webkit-linear-gradient(45deg,#594697, #FB8072,#594697,#594697);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+    
+}
+
+.work-strategy-left-text2{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.7083px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.work-strategy-right-p1{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.work-strategy-right-p2{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.3163px;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.work-strategy-right-img{
+    margin-left: 8px;
+}
+/* work-strategy css end  */
+
+/* services css start  */
+
+.services{
+    background-color: #191919;
+    padding: 100px 0px;
+}
+
+.service-top-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-top-p{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.7083px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 588px;
+    height: 184px;
+
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-card img{
+    Width: 121.63px;
+    Height: 121.63px;
+}
+
+.service-card .service-card-p1{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.4615px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 40px 0px;
+}
+.service-card .service-card-p2{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.8193px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-align: justify;
+}
+/* services css end  */
