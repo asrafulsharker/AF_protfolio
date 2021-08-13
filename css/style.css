@@ -392,17 +392,19 @@
       align-items: center;
       justify-content: center;
       font-family: Gilroy;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 37.1829px;
-    line-height: 43px;
-
-    color: #FFFFFF;
-    text-decoration: none !important;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 37.1829px;
+        line-height: 43px;
+        color: #FFFFFF;
+        text-decoration: none !important;
+        margin-top: 30px;
   }
+
   .work-view-link a:hover{
       color: white !important;
   }
+
   .work-view-link a p{
       margin-bottom: 0rem !important;
       margin-right: 10px;
@@ -413,3 +415,135 @@
 }
 
 /* works css end  */
+
+
+/* recent case study css start */
+.recent-case{
+    background-color: #191919;
+    padding: 100px 0px;
+}
+
+.card{
+    border: 0px solid rgba(0,0,0,.125) !important;
+    background-color: #191919 !important;
+}
+
+.card-body img{
+    margin-bottom: 20px;
+}
+.card-body{
+    background: #2D2D2D;
+}
+
+.card-text{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.7155px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.recent-case-study-top-div-p{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.7083px;
+    line-height: 52px;
+    color: #FFFFFF;
+    margin: 40px 0px 60px 0px;
+}
+
+.recent-view-link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gilroy;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 37.1829px;
+      line-height: 43px;
+      color: #FFFFFF;
+      text-decoration: none !important;
+      margin-top: 30px;
+}
+
+.recent-view-link a:hover{
+    color: white !important;
+}
+
+.recent-view-link a p{
+    margin-bottom: 0rem !important;
+    margin-right: 10px;
+}
+
+.recent-view-link a img{
+  margin-left: 10px;
+}
+/* recent case study css end  */
+
+
+ /* testimonials css start   */
+ .testimonials{
+    background-color: #191919;
+    padding: 100px 0px;
+ }
+.testimonials-left{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+
+}
+
+.testimonials-text{
+    width: 210.62px;
+    height: 52.86px;
+}
+
+.testimonials-icon{
+    width: 92.1px;
+    height: 118.52px;
+}
+
+.testimonials-p1{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.8943px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.testimonials-p2{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-size: 28.8943px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.testimonials-name{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.8943px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+.testimonials-position{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20.6388px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+
+ /* testimonials css end    */
