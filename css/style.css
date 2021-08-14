@@ -548,14 +548,81 @@
 
  /* testimonials css end    */
 
+
+/* faq css start  */
+
+
+
+/* faq css end */
+.faq{
+    background-color: #191919;
+    padding: 100px 0px;
+}
+.faq-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq-top-p{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.faq-ddown{
+    display: flex;
+    align-items: center;
+}
+.faq-ddown img{
+    margin-left: auto;
+}
+.faq-bottom .col-md-5{
+    /* border-bottom: 0.987461px solid #8A8A8A; */
+    
+}
+
+.faq-bottom .faq-p1{
+
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.6991px;
+    line-height: 28px;
+    cursor: pointer;
+    color: #FFFFFF;
+
+
+}
+.collapse{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.7743px;
+    line-height: 21px;
+    text-align: justify;
+    letter-spacing: 0.04em;
+
+    color: #BDBDBD;
+}
  /* contact css start  */
 
  .contact{
     background-color: #191919;
     padding: 100px 0px;
  }
- .contact-left-img2{
-    height: 200px;
+ .contact-left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .contact-left-img1{
+    height: 220px;
+    margin-bottom: 80px;
+    width: 50%;
 }
 
 .contact-left p{
@@ -610,4 +677,144 @@
 }
 
 
+.discription{
+    color: #FFFFFF;
+    background-color: #191919;
+    margin-top: 20px;
+    border: 1.10826px solid #757575;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    height: 175.1px;
+}
+
+.contact-btn{
+    background: #C50662;
+    text-decoration: none !important;
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.7912px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 7px 25px;
+    margin-top: 20px;
+}
+
+.contact-btn:hover{
+    color: #FFFFFF;
+}
  /* contact css end  */
+
+
+ /* footer css start  */
+.footer{
+    background-color: #191919;
+    padding: 100px 0px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo p{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38.0634px;
+    line-height: 45px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.footer-left-p{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+.footer-left-credit{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.9759px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right-p1{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34.5311px;
+    line-height: 41px;
+    color: #FF007A;
+}
+
+
+.footer-right-p2{
+    margin-top: 35px;
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.8698px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer-right-p3 {
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.8698px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer-right-p4{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.8698px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer-right-p5{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34.5311px;
+    line-height: 41px;
+    color: #FF007A;
+    margin-top: 35px;
+}
+
+.footer-link{
+    margin-top: 20px;
+    word-spacing: 20px;
+}
+
+.footer-link a{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.8698px;
+    line-height: 21px;
+    color: #9F9F9F;
+}
+ /* footer css end  */
