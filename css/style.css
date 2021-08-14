@@ -547,3 +547,67 @@
 
 
  /* testimonials css end    */
+
+ /* contact css start  */
+
+ .contact{
+    background-color: #191919;
+    padding: 100px 0px;
+ }
+ .contact-left-img2{
+    height: 200px;
+}
+
+.contact-left p{
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64.7751px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+
+.contact-left-img2{
+    width: 269.31px;
+    height: 43.35px;
+}
+
+
+
+ .contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .contact-right .row input{
+    border: 1.10826px solid #757575;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    height: 67.6px;
+    font-family: AvantGarde Bk BT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.5156px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+    background-color: #191919;
+    margin-top: 20px;
+ }
+
+ .half-input-left{
+     width: 48.5%;
+     margin-right: 1.5%;
+ }
+
+ .half-input-right{
+    width: 48.5%;
+    margin-left: 1.5%;
+}
+
+
+ /* contact css end  */
