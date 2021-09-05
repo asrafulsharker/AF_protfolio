@@ -564,6 +564,9 @@
     justify-content: center;
     flex-direction: column;
 }
+.faq-top img{
+    margin-bottom: 15px;
+}
 .faq-top-p{
     font-family: AvantGarde Bk BT;
     font-style: normal;
@@ -572,10 +575,14 @@
     line-height: 57px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 40px;
+    width: 75%;
 }
 .faq-ddown{
     display: flex;
     align-items: center;
+    /* border-bottom: 1px solid aliceblue; */
+    margin-top: 15px;
 }
 .faq-ddown img{
     margin-left: auto;
@@ -584,7 +591,22 @@
     /* border-bottom: 0.987461px solid #8A8A8A; */
     
 }
-
+.faq-bottom-left .col-md-10{
+    padding: 0 !important;
+    border-bottom: 1px solid #8A8A8A;
+}
+.collapse.show {
+    display: block;
+    padding: 5px 0px 22px 0px;
+}
+.faq-bottom-right .col-md-10{
+    padding: 0 !important;
+    border-bottom: 1px solid #8A8A8A;
+}
+.faq-bottom-right .col-md-10 .col-md-6{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .faq-bottom .faq-p1{
 
     font-family: AvantGarde Bk BT;
@@ -608,6 +630,9 @@
 
     color: #BDBDBD;
 }
+.faq-bottom-right .col-md-10{
+    margin-left: 18%;
+}
  /* contact css start  */
 
  .contact{
@@ -619,6 +644,7 @@
      flex-direction: column;
      justify-content: center;
  }
+
  .contact-left-img1{
     height: 220px;
     margin-bottom: 80px;
@@ -741,7 +767,7 @@
     font-size: 36px;
     line-height: 43px;
     color: #FFFFFF;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .footer-left-credit{
     font-family: AvantGarde Bk BT;
@@ -765,11 +791,12 @@
     font-size: 34.5311px;
     line-height: 41px;
     color: #FF007A;
+    margin-top: 30px;
 }
 
 
 .footer-right-p2{
-    margin-top: 35px;
+    margin-top: 20px;
     font-family: AvantGarde Bk BT;
     font-style: normal;
     font-weight: 600;
@@ -801,12 +828,12 @@
     font-size: 34.5311px;
     line-height: 41px;
     color: #FF007A;
-    margin-top: 35px;
+    margin-top:20px;
 }
 
 .footer-link{
-    margin-top: 20px;
-    word-spacing: 20px;
+    margin-top: 10px;
+    /* word-spacing: 20px; */
 }
 
 .footer-link a{
@@ -816,5 +843,22 @@
     font-size: 17.8698px;
     line-height: 21px;
     color: #9F9F9F;
+    text-decoration: none !important;
 }
+.footer-link a:hover{
+    color: white !important;
+}
+.footer-link .a2{
+    margin-left: 20px;
+}
+.footer-link .a3{
+    margin-left: 20px;
+}
+.footer-link .a4{
+    margin-left: 20px;
+}
+.footer-link .a6{
+    margin-left: 20px;
+}
+
  /* footer css end  */
