@@ -1,6 +1,20 @@
 /* header css start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    transform: 2s;
+}
 .header_area{
     background-color: #191919 !important;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 
 }
 .head{
@@ -96,6 +110,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-top: 92px; */
+    transition: 2s;
 }
 
 .home-main{
@@ -104,6 +120,7 @@
     justify-content: center; 
     flex-direction: column;
     padding: 50px 0px ;
+    margin-top: 120px;
 }
 
 .home-hi-text{
@@ -167,10 +184,13 @@
 /* home css end  */
 
 /* about css start  */
-
+#about{
+    transform: 2s;
+}
 .about{
     background-color: #191919;
     padding: 100px 0px;
+    transition: 2s;
 }
 
 .about-left-text1{
@@ -281,7 +301,7 @@
 /* services css start  */
 
 .services{
-    background-color: #191919;
+    background-color: #1D1D1D;
     padding: 100px 0px;
 }
 
@@ -358,7 +378,7 @@
 /* works css  start  */
 
 .works{
-    background-color: #191919;
+    background-color: #1D1D1D;
     
 }
 
@@ -379,7 +399,7 @@
     text-align: center;
     color: #FFFFFF;
     width: 588px;
-    height: 184px;
+    height: 150px;
 
 }
 
@@ -433,7 +453,7 @@
 
 /* recent case study css start */
 .recent-case{
-    background-color: #191919;
+    background-color: #1D1D1D;
     padding: 100px 0px;
 }
 
@@ -574,7 +594,7 @@
 
 /* faq css end */
 .faq{
-    background-color: #191919;
+    background-color: #000000;
     padding: 100px 0px;
 }
 .faq-top{
