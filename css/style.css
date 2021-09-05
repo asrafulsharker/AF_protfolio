@@ -285,6 +285,9 @@
     padding: 100px 0px;
 }
 
+.service-main{
+    /* padding: 0px 150px !important; */
+}
 .service-top-div{
     display: flex;
     justify-content: center;
@@ -327,6 +330,8 @@
     text-align: center;
     color: #FFFFFF;
     margin: 40px 0px;
+    padding: 0px 5px;
+
 }
 .service-card .service-card-p2{
     font-family: AvantGarde Bk BT;
@@ -338,6 +343,15 @@
     letter-spacing: 0.04em;
     color: #FFFFFF;
     text-align: justify;
+    padding: 0px 0px;
+
+}
+.res-service-card{
+    padding-right: 15px;
+    padding-left: 0px !important;
+}
+.res-service-card1{
+    padding-right: 0px !important;
 }
 /* services css end  */
 
@@ -345,7 +359,7 @@
 
 .works{
     background-color: #191919;
-    padding: 100px 0px;
+    
 }
 
 .works-top-div{
@@ -513,7 +527,7 @@
     font-size: 28.8943px;
     line-height: 34px;
     color: #FFFFFF;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .testimonials-p2{
@@ -522,7 +536,7 @@
     font-size: 28.8943px;
     line-height: 34px;
     color: #FFFFFF;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .testimonials-name{
@@ -532,7 +546,7 @@
     font-size: 28.8943px;
     line-height: 34px;
     color: #FFFFFF;
-    margin-top: 45px;
+    margin-top: 25px;
 }
 
 .testimonials-position{
@@ -544,8 +558,13 @@
 
     color: #FFFFFF;
 }
+.testimonials-right{
+    display: flex;
+}
 
-
+.testimonials-right img{
+    width: 100%;
+}
  /* testimonials css end    */
 
 
