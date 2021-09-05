@@ -145,6 +145,11 @@ html{
     width: 942px;
     color: #FFFFFF;
     margin: 10px 0px 50px 0px;
+    font-family: 'avantgarde_bk_btdemi';
+    src: url('../fonts/AvantGrade/avantgardedemibt-webfont.woff2') format('woff2'),
+         url('../fonts/AvantGrade/avantgardedemibt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
